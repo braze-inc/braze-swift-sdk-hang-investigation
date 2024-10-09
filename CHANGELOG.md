@@ -1,12 +1,7 @@
-## 11.1.0
-
-##### Fixed
-- Fixes an issue introduced in `11.0.0` where the push token status would not always be reported in all circumstances.
-- Fixes a display bug where an in-app message would appear truncated after certain keyboard dismissal scenarios.
-- Fixes a reference cycle in `Braze.NewsFeedCard.Context` that could prevent the card from being deallocated.
+## 11.0.0-instrumentation
 
 ##### Added
-- Adds a public initializer for `Braze.Notifications.Payload`.
+- Added instrumentation around SDK initialization
 
 ## 11.0.0
 
@@ -27,6 +22,9 @@
 
 #### Fixed
 - Fixes the push authorization status reporting to display the proper push token status on the Dashboard when a user has not explicitly accepted or declined push permissions.
+
+#### Additionally Fixed
+- Replaces `AsyncViewStore.executeSync` implementation to use the scheduler's underlying `DispatchQueue.sync` method instead of using a `DispatchSemaphore` to block the current thread.
 
 ## 10.3.1
 
