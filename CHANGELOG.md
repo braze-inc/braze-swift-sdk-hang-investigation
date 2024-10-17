@@ -1,3 +1,8 @@
+## 11.1.1-instrumentation
+
+##### Added
+- Added instrumentation around SDK initialization
+
 ## 11.1.1
 
 ##### Fixed

@@ -49,8 +49,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "BrazeKit",
-      url: "https://github.com/braze-inc/braze-swift-sdk-hang-investigation/releases/download/11.1.1/BrazeKit.zip",
-      checksum: "aec1a17c8e090c6bf1b5455a20bde11e4675abeaad2094775b04b56fb4b7f7b1"
+      url: "https://github.com/braze-inc/braze-swift-sdk-hang-investigation/releases/download/11.1.1-instrumentation/BrazeKit.zip",
+      checksum: "0eb6b6ad4ca107e3676a854a5ca09ddd8c95278831fda59fd1635e49a0a3472b"
     ),
     .target(
       name: "BrazeKitResources",
@@ -67,8 +67,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BrazeLocation",
-      url: "https://github.com/braze-inc/braze-swift-sdk-hang-investigation/releases/download/11.1.1/BrazeLocation.zip",
-      checksum: "6a33ff12c12da5468ed9d69db5b7b0ab57642511073a1a400072e6058df55ea3"
+      url: "https://github.com/braze-inc/braze-swift-sdk-hang-investigation/releases/download/11.1.1-instrumentation/BrazeLocation.zip",
+      checksum: "82bb2723842ab4933bbd0f9149bdd1fe91bd9a09eb3bdfc249914c2778da1882"
     ),
     .target(
       name: "BrazeLocationResources",
@@ -78,13 +78,13 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BrazeNotificationService",
-      url: "https://github.com/braze-inc/braze-swift-sdk-hang-investigation/releases/download/11.1.1/BrazeNotificationService.zip",
-      checksum: "3490c0b24943fe2489aa36156104b6120111970ba2c38538d3314b2115e4d241"
+      url: "https://github.com/braze-inc/braze-swift-sdk-hang-investigation/releases/download/11.1.1-instrumentation/BrazeNotificationService.zip",
+      checksum: "3b92224fa4e218fb0e6ce367b0e39f6107b381bcfb57a1251cbf77dee0c6836c"
     ),
     .binaryTarget(
       name: "BrazePushStory",
-      url: "https://github.com/braze-inc/braze-swift-sdk-hang-investigation/releases/download/11.1.1/BrazePushStory.zip",
-      checksum: "5faa94befc7eb144d3ae5a74dc4b4f9c4951e017488ec5d725dcfd3230be6570"
+      url: "https://github.com/braze-inc/braze-swift-sdk-hang-investigation/releases/download/11.1.1-instrumentation/BrazePushStory.zip",
+      checksum: "18b6c0b756c9777ae860fcdf83a886d21b75a1fa3c9cc914663b8feed1bc7297"
     ),
     .target(
       name: "BrazePushStoryResources",
